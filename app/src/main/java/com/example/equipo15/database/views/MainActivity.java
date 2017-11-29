@@ -72,6 +72,5 @@ public class MainActivity extends AppCompatActivity {
     public void processData() {
         personasAdapter = new PersonasAdapter(listaPersonas, getApplicationContext());
         recyclerViewPersonas.setAdapter(personasAdapter);
-
     }
 }
